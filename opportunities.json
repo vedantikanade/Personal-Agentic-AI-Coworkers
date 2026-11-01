@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Healthcare AI / Machine Learning Internship search",
+    "url": "https://www.linkedin.com/jobs/search/?keywords=healthcare%20AI%20machine%20learning%20internship",
+    "source": "LinkedIn search",
+    "skills": ["Python", "machine learning", "healthcare", "data analysis"]
+  },
+  {
+    "title": "Data Science Internship search",
+    "url": "https://www.indeed.com/jobs?q=data+science+internship+healthcare",
+    "source": "Indeed search",
+    "skills": ["Python", "SQL", "statistics", "data visualization"]
+  },
+  {
+    "title": "NIH research opportunities",
+    "url": "https://www.training.nih.gov/research-training/",
+    "source": "National Institutes of Health",
+    "skills": ["research", "healthcare data", "biomedical science"]
+  }
+]

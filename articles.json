@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "date": "2020-05-22",
+    "source": "Facebook AI Research / arXiv",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "topics": ["RAG", "retrieval", "evaluation", "data quality"],
+    "summary": "The paper introduces RAG as a model that combines a pretrained sequence-to-sequence generator with a neural retriever over an external vector index. Across knowledge-intensive NLP tasks, the authors report stronger open-domain question answering and more specific, diverse, and factual generations than a parametric-only baseline.",
+    "short_summary": "RAG combines a pretrained text generator with a neural retriever that fetches evidence from an external vector index. The paper compares using the same retrieved passages for an answer with allowing different passages during generation. On knowledge-intensive tasks, RAG improved open-domain question answering and produced more specific, diverse, and factual language than a model relying only on stored parameters.",
+    "why_it_matters": "For healthcare, the important design lesson is to retrieve from a curated medical knowledge base and evaluate both retrieval quality and answer faithfulness.",
+    "takeaways": ["RAG combines parametric model memory with non-parametric external memory.", "Retrieved evidence can improve factuality and updateability.", "Healthcare RAG needs curated sources, citations, and separate retrieval and answer evaluation."],
+    "minutes": 5
+  },
+  {
+    "title": "Machine Learning for Healthcare: On the Verge of a Major Shift in Healthcare Epidemiology",
+    "date": "2018-01-01",
+    "source": "Clinical Infectious Diseases / Oxford Academic",
+    "url": "https://academic.oup.com/cid/article/66/1/149/4085880",
+    "topics": ["healthcare AI", "machine learning", "evaluation", "bias"],
+    "summary": "This review explains how machine learning can use high-dimensional electronic health data for risk stratification, infection surveillance, and prediction of outcomes such as sepsis. It emphasizes that healthcare data are messy and labels can reflect clinical workflows; therefore models require held-out or temporal testing, leakage checks, calibration, interpretability, and collaboration with clinicians.",
+    "short_summary": "The review explains how ML can use complex EHR data for infection-risk stratification, sepsis prediction, and infectious-disease surveillance. It warns that messy clinical data, inaccurate labels, data leakage, overfitting, and changing hospital practices can make impressive results unreliable. It recommends held-out or temporal testing, calibration, interpretability, careful target definition, and close collaboration between data scientists and clinicians.",
+    "why_it_matters": "This gives you a practical checklist for evaluating whether a healthcare model generalizes beyond its training hospital and supports a real clinical decision.",
+    "takeaways": ["Healthcare data quality and target-label quality determine what a model actually learns.", "Accuracy is not enough; check calibration, leakage, temporal generalization, and interpretability.", "ML should augment clinical expertise rather than replace statistical and clinical validation."],
+    "minutes": 5
+  },
+  {
+    "title": "Hidden Technical Debt in Machine Learning Systems",
+    "date": "2015-12-01",
+    "source": "Google Research / NeurIPS",
+    "url": "https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems",
+    "topics": ["data quality", "ML systems", "monitoring", "reproducibility"],
+    "summary": "The paper explains that production ML systems accumulate debt through data dependencies, changing inputs, feedback loops, monitoring gaps, and pipeline complexity.",
+    "short_summary": "ML systems accumulate hidden debt through fragile data dependencies, changing inputs, and weak monitoring. Reliable production AI requires reproducible pipelines and continuous checks.",
+    "why_it_matters": "Data-quality monitoring is essential when healthcare data changes across hospitals, populations, or time periods.",
+    "takeaways": ["Data and pipeline maintenance are as important as model selection.", "Monitoring should detect changes in inputs and outcomes.", "Clear interfaces and reproducible experiments reduce long-term risk."],
+    "minutes": 5
+  },
+  {
+    "title": "Building Effective AI Agents",
+    "date": "2024-12-11",
+    "source": "Anthropic Engineering",
+    "url": "https://www.anthropic.com/research/building-effective-agents",
+    "topics": ["agents", "workflow", "evaluation", "LLMs"],
+    "summary": "This guide distinguishes predictable workflows from more autonomous agents and recommends choosing the simplest architecture that meets the task.",
+    "short_summary": "Effective agents use the simplest workflow that solves the task. Reliable systems need clear tool use, evaluation, and observability.",
+    "why_it_matters": "This supports your own agent project by showing how to keep an AI coworker useful, testable, and understandable.",
+    "takeaways": ["Use workflows when steps are known and repeatable.", "Agents are useful when the model must choose tools or steps dynamically.", "Evaluation and observability are essential for reliable behavior."],
+    "minutes": 5
+  },
+  {
+    "title": "CRISP-DM 1.0: Step-by-step Data Mining Guide",
+    "date": "1999-01-01",
+    "source": "IBM SPSS / CRISP-DM Consortium",
+    "url": "https://www.ibm.com/docs/en/spss-modeler/saas?topic=dm-crisp-help-overview",
+    "topics": ["data science", "data quality", "process", "evaluation"],
+    "summary": "CRISP-DM is an iterative process model with six phases: business understanding, data understanding, data preparation, modeling, evaluation, and deployment. The phases are not strictly linear; teams move backward when exploration reveals data problems or when evaluation shows that the model does not meet the original objective.",
+    "short_summary": "CRISP-DM guides a data project through business understanding, data understanding, data preparation, modeling, evaluation, and deployment. Each phase has a different purpose, such as defining success criteria, checking data quality, building models, and deciding whether the result is useful. The process is iterative, so model problems or newly discovered data issues can send the team back to an earlier phase.",
+    "why_it_matters": "For healthcare data, this prevents you from modeling too early and keeps the clinical objective, data quality, and deployment risks connected.",
+    "takeaways": ["Define the problem and success criteria before choosing a model.", "Treat data understanding and preparation as major technical work.", "Evaluate both model performance and whether the result solves the original problem."],
+    "minutes": 5
+  }
+]

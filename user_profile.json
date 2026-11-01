@@ -1,0 +1,34 @@
+{
+  "name": "SJSU learner",
+  "interests": [
+    "healthcare AI",
+    "data science",
+    "data quality",
+    "machine learning",
+    "RAG",
+    "AI evaluation"
+  ],
+  "current_skills": [
+    "CRISP-DM",
+    "introductory RAG projects",
+    "data analysis concepts"
+  ],
+  "growth_areas": [
+    "Python coding",
+    "machine-learning implementation",
+    "technical interviews",
+    "healthcare AI evaluation"
+  ],
+  "career_goal": "Healthcare AI or data science internship",
+  "daily_minutes": 15,
+  "preferred_sources": [
+    "OpenAI",
+    "Google AI",
+    "Microsoft",
+    "AWS",
+    "IEEE",
+    "ACM",
+    "PubMed and healthcare research publications",
+    "LangGraph documentation"
+  ]
+}

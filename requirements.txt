@@ -1,0 +1,4 @@
+# No third-party dependencies are required. Python's standard library handles
+# RSS parsing, HTTP retrieval, ranking, and interactive coaching.
+# Optional future additions: openai, feedparser, requests, langgraph, streamlit.
+streamlit>=1.35.0
